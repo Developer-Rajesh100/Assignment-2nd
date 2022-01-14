@@ -27,3 +27,40 @@ nav p {
 .nav-icon {
   margin-left: 34px;
 }
+/*********************
+   FIRST INTERFACE 
+**********************/
+section {
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+}
+.first-interface-content {
+  margin-left: 120px;
+}
+.first-interface-content-title {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 45px;
+}
+.main-camera {
+  margin-left: 140px;
+}
+.first-interface-content-para {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+.button {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  background-color: #e02c6d;
+  padding: 10px;
+  border-radius: 18px;
+  color: #ffffff;
+}
+.fa-arrow-right {
+  margin-left: 10px;
+}
