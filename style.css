@@ -1,0 +1,29 @@
+/***************
+   FONT FAMILY 
+ ***************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@400;500;600;800&display=swap");
+
+/************
+    NAVBAR 
+ ************/
+nav {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.brand {
+  margin-left: 120px;
+}
+nav p a {
+  text-decoration: none;
+  color: black;
+  margin-left: 34px;
+}
+nav p {
+  margin-left: 320px;
+}
+.nav-icon {
+  margin-left: 34px;
+}
