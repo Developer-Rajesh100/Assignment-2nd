@@ -74,3 +74,42 @@ section {
 .ecommerce-icons img {
   margin-left: 40px;
 }
+/*******************
+    ITEM FOR SELL 
+ *******************/
+.item-head {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.item-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 50px;
+  justify-items: center;
+}
+.item {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 10px;
+}
+.fa-star {
+  color: #fb8200;
+}
+.fa-star-half-alt {
+  color: #fb8200;
+}
+.see-more-button {
+  margin-top: 50px;
+}
+.see-more-button a {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  color: #e02c6d;
+  margin-left: 1100px;
+  margin-top: 50px;
+}
