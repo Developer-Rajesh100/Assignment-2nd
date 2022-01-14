@@ -95,6 +95,8 @@ section {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .fa-star {
   color: #fb8200;
@@ -112,4 +114,52 @@ section {
   color: #e02c6d;
   margin-left: 1100px;
   margin-top: 50px;
+}
+.nature-photografy-group {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.nature-photografy-img img {
+  border-radius: 10px;
+  margin-left: 65px;
+}
+.nature-photografy-content {
+  margin-left: 70px;
+  width: 500px;
+}
+.nature-photografy-para {
+  text-align: justify;
+}
+.join-now {
+  margin-top: 30px;
+}
+.nature-photografy-content a {
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #e02c6d;
+  color: #ffffff;
+  padding: 8px;
+}
+/*************
+    FOOTER 
+ *************/
+footer {
+  background-color: #000b49;
+  color: white;
+  display: grid;
+  justify-items: center;
+}
+footer h2 {
+  padding-top: 30px;
+}
+.footer-para {
+  margin: 5px;
+}
+.social-icon {
+  margin-left: 10px;
+}
+.social-icon-para {
+  padding-bottom: 25px;
 }
