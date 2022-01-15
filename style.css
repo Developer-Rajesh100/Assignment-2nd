@@ -34,8 +34,7 @@ main {
   display: grid;
 }
 section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   margin-top: 80px;
   align-items: center;
 }
@@ -75,6 +74,8 @@ section {
   font-family: "Poppins", sans-serif;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
+  width: 85%;
+  text-align: justify;
 }
 .button {
   text-decoration: none;
@@ -140,6 +141,7 @@ section {
   margin-left: 1100px;
   margin-top: 50px;
 }
+
 .nature-photografy-group {
   font-family: "Poppins", sans-serif;
   font-family: "Rubik", sans-serif;
@@ -196,7 +198,7 @@ footer h2 {
 /* FOR MOBILE */
 @media only screen and (max-width: 688px) {
   nav {
-    grid-template-columns: 1, 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
   .brand {
     font-size: 80%;
@@ -204,9 +206,13 @@ footer h2 {
   .navbar {
     display: none;
   }
+  section {
+    flex-direction: column;
+  }
   .first-interface {
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: -185px;
   }
   .first-interface-content-title {
     font-size: 150%;
@@ -216,19 +222,45 @@ footer h2 {
     margin-left: -20px;
   }
   .first-interface-content-para {
-    width: 50%;
+    width: 30%;
+    text-align: justify;
   }
   .main-camera img {
     margin-top: 100px;
+    margin-left: -520px;
+    weight: 300px;
+    width: 300px;
   }
   .ecommerce-icons {
     display: none;
+  }
+  .all-items {
+    margin-left: -780px;
   }
   .item-section {
     grid-template-columns: repeat(1, 1fr);
   }
   .nature-photografy-group {
     grid-template-columns: repeat(1, 1fr);
+    margin-left: -780px;
+  }
+  .nature-photografy-img img {
+    height: 200px;
+    width: 100;
+    margin-left: 0px;
+  }
+  .nature-photografy-content h1 {
+    margin-left: 55px;
+  }
+  .nature-photografy-para {
+    width: 65%;
+    margin-left: 53px;
+  }
+  .join-now {
+    margin-left: 265px;
+  }
+  .see-more-button {
+    margin-left: 100px;
   }
   .footer {
     width: 100%;
