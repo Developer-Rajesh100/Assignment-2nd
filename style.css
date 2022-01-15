@@ -47,7 +47,7 @@ section {
     color: #632626;
   }
   25% {
-    color: yellow;
+    color: orange;
   }
   50% {
     color: blue;
@@ -56,7 +56,7 @@ section {
     color: green;
   }
   100% {
-    color: red;
+    color: tomato;
   }
 }
 .first-interface-content-title {
